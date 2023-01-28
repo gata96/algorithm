@@ -1,5 +1,3 @@
-import sys
-input = sys.stdin.readline
 num = list(map(int, input().split()))
 cnt = len(list(set(num)))
 if cnt == 1:
